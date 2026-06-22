@@ -1,114 +1,99 @@
-⭐ G2 Dynamics — AI-Native Research & Quant Systems
-Black Box Lab • Autonomous Research • Multi-Agent Reasoning Pipelines
+# G2 Dynamics
 
-G2 Dynamics is an AI-native research lab building sovereign, multi-agent reasoning systems for quantitative analysis, sports modeling, and autonomous experimentation.
-Our focus is simple:
+**AI-native control-plane infrastructure, validation workflows, and autonomous systems research.**
 
-Build models that think.
+G2 Dynamics is an independent AI-native systems lab building pilot-grade infrastructure for autonomous and semi-autonomous workflows.
 
-Build systems that learn.
+The current focus is **Black Box Lab**: a private research and validation environment for coordinating tools, agents, execution systems, research workflows, audit records, and report generation.
 
-Build engines that scale.
+The lab is currently in a **Pilot Hardening / Validation Operations** phase.
 
-At the center of G2D is Black Box Lab — a fully independent R&D environment powered by our evolving Reasoning Kernels and a distributed cluster of autonomous Researcher Agents.
+That means the priority is not simply building systems that work. The priority is making those systems:
 
-🔬 Black Box Lab
+- traceable
+- repeatable
+- auditable
+- reportable
+- safe to operate
+- ready to support real pilots
 
-Black Box is where all internal research happens:
+---
 
-Multi-agent experimentation
+## Current Build Focus
 
-Meta-reasoning and hypothesis generation
+### Control Plane
 
-Tool-orchestrated experimentation
+The control plane is the operational nucleus of the lab. It coordinates workflow dispatch, tool access, operator actions, run records, audit trails, and cross-system execution.
 
-Simulation and correlation testing
+Current build target:
 
-Statistical modeling and quant exploration
+**Control Plane Workflow Ledger + Skill Runner v0**
 
-Every experiment is tracked, versioned, and reproducible.
+The goal is for every meaningful workflow — queue, dispatch, report, commit packet, validation run, or system action — to receive a traceable run ID and produce a durable workflow record.
 
-🧠 G2 Researcher Cluster (v1.0 Lineage)
+---
 
-Our flagship autonomous agent is the G2 Researcher, a lightweight, tool-capable reasoning engine inspired by modern multi-agent labs.
+## Validation Lab Direction
 
-Current cluster:
+G2D is being built as a validation lab for autonomous and AI-assisted systems.
 
-📌 v1.0_FROZEN
+The core operating principle:
 
-Immutable, untouched baseline snapshot.
-Serves as the canonical root for all future builds.
+> If a workflow matters, it should leave evidence.
 
-📌 v1.0_DEV
+Evidence may include:
 
-Active development environment:
-patched, debugged, dry-run verified, stable.
+- decision records
+- workflow run records
+- tool calls
+- dispatch logs
+- report artifacts
+- validation bundles
+- operator notes
+- system outputs
+- commit packets
 
-📌 v1.0_AGENT_B
+This turns the lab from a collection of working tools into a repeatable operating environment.
 
-Branch of DEV specializing in:
+---
 
-analytical reasoning
+## Active System Lineage
 
-statistical comparisons
+G2D systems are organized around named components and operating roles.
 
-cross-experiment evaluation
+Current active or relevant systems include:
 
-📌 v1.0_AGENT_C
+- **Control Plane** — workflow nucleus, operator interface, dispatch coordination, and audit routing
+- **Donna** — report-shaped agent and audit/report lane
+- **Crystal** — deterministic execution and safety-bounded quant infrastructure
+- **Quartz** — working simulation, backtesting, and workflow validation system
+- **Atlas** — infrastructure and workflow support layer
+- **Orion** — research-cluster direction and deeper research workflow layer
+- **Hermes** — mutation and modification cluster for system evolution workflows
 
-Branch of DEV specializing in:
+Some public repositories reflect older lineage, forks, experiments, or supporting infrastructure. The public GitHub is a partial surface of an active private R&D environment.
 
-synthesis
+---
 
-hypothesis expansion
+## Near-Term Priorities
 
-tool-chain orchestration
+Current hardening sequence:
 
-These three form our first multi-agent cluster, scheduled for distributed deployment on local + Mac hardware.
+1. Add decision ledger and workflow run records.
+2. Add Donna input/report lane.
+3. Add operator skills around existing tools.
+4. Add Atlas/Orion workflow-specific skills.
+5. Add validation bundles by workflow type.
+6. Only then consider deeper Crystal access.
 
-🧩 Architecture Philosophy
+The priority is not adding unnecessary complexity.
 
-G2D follows a simple progression:
+The priority is making existing systems more reliable, observable, and pilot-ready.
 
-Experiment → Study → Prototype → System
+---
 
-Everything we build eventually folds back into:
+## Founder
 
-Archimedes (Sovereign Quant Kernel)
+Built by **JordanG2D**.
 
-Crystal Engine (feature pipeline)
-
-Gnosis & Nostradamus (sports quant engines)
-
-LJ (low-level probabilistic engine)
-
-Each Researcher agent feeds data upward into this stack.
-
-🚀 Roadmap (Next 90 Days)
-
-Deploy 3-agent Researcher cluster on local + Mac
-
-Begin Study Phase on multi-agent reasoning patterns
-
-Integrate Black Box Lab into G2D’s private compute rack
-
-Publish weekly quant reports
-
-Complete Crystal Engine v1
-
-Begin G2D Founder Blueprint rollout on social
-
-🔗 Repositories
-
-G2-Researcher_v1.0_FROZEN — canonical baseline
-
-G2-Researcher_v1.0_DEV — live dev branch
-
-G2-Researcher_v1.0_AGENT_B — analysis agent
-
-G2-Researcher_v1.0_AGENT_C — synthesis agent
-
-🧬 Founder
-
-Built by JordanG2D —
-AI-native founder building a sovereign quant lab from scratch.
+Founder/operator building an AI-native validation lab and control-plane infrastructure stack from the ground up.
