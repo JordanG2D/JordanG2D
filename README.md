@@ -1,99 +1,31 @@
-# G2 Dynamics
+# Gen 2 Dynamics
 
-**AI-native control-plane infrastructure, validation workflows, and autonomous systems research.**
+**AI agents that do accountable work.**
 
-G2 Dynamics is an independent AI-native systems lab building pilot-grade infrastructure for autonomous and semi-autonomous workflows.
+Nexus is a control layer for AI agents that act inside real systems. A person authorizes the work, the agent executes inside that authorization, and Nexus keeps one record of the whole task: request, approval, execution, evidence and decision.
 
-The current focus is **Black Box Lab**: a private research and validation environment for coordinating tools, agents, execution systems, research workflows, audit records, and report generation.
+Built by Joshua Jordan, Army veteran and solo technical founder.
 
-The lab is currently in a **Pilot Hardening / Validation Operations** phase.
+**Website:** [gen2dynamics.com](https://gen2dynamics.com) · [Nexus](https://gen2dynamics.com/nexus.html)
 
-That means the priority is not simply building systems that work. The priority is making those systems:
+## What has been demonstrated
 
-- traceable
-- repeatable
-- auditable
-- reportable
-- safe to operate
-- ready to support real pilots
+- **A governed external-tool workflow (17 Oct 2026).** On a founder-signed, one-use grant, Nexus ran two completed QuantConnect backtests inside a fixed request budget (13 of 37 provider requests used). It produced a ten-file, hash-verified evidence packet, and the record was rebuilt identically with zero provider calls. Reviewed by an independent adversarial AI reviewer, not a human audit.
+- **A live authenticated connection (1 Nov 2026).** The modular V3 rebuild accepted a real ChatGPT and Auth0 sign-in, passed its initial checks and completed an authenticated read.
+- **Internal use.** Nexus is in use inside the author's own lab, queuing, dispatching and reporting AI-assisted engineering work under written rules for scope, authority, escalation and independent review. A ChatGPT-driven loop was proven in June 2026.
 
----
+## What is not claimed
 
-## Current Build Focus
+No customers or revenue yet. The QuantConnect run was attended and says nothing about trading performance. V3 is a development deployment: running real tools through the live connection, crash and reboot recovery and key rotation are still being qualified. It is not production-ready.
 
-### Control Plane
+## Open source
 
-The control plane is the operational nucleus of the lab. It coordinates workflow dispatch, tool access, operator actions, run records, audit trails, and cross-system execution.
+- [g2d-discord-forge](https://github.com/JordanG2D/g2d-discord-forge): applies a Discord server template to an existing server without deleting what is already there. MIT.
 
-Current build target:
+## Contact
 
-**Control Plane Workflow Ledger + Skill Runner v0**
+info@gen2dynamics.com
 
-The goal is for every meaningful workflow — queue, dispatch, report, commit packet, validation run, or system action — to receive a traceable run ID and produce a durable workflow record.
-
----
-
-## Validation Lab Direction
-
-G2D is being built as a validation lab for autonomous and AI-assisted systems.
-
-The core operating principle:
-
-> If a workflow matters, it should leave evidence.
-
-Evidence may include:
-
-- decision records
-- workflow run records
-- tool calls
-- dispatch logs
-- report artifacts
-- validation bundles
-- operator notes
-- system outputs
-- commit packets
-
-This turns the lab from a collection of working tools into a repeatable operating environment.
-
----
-
-## Active System Lineage
-
-G2D systems are organized around named components and operating roles.
-
-Current active or relevant systems include:
-
-- **Control Plane** — workflow nucleus, operator interface, dispatch coordination, and audit routing
-- **Donna** — report-shaped agent and audit/report lane
-- **Crystal** — deterministic execution and safety-bounded quant infrastructure
-- **Quartz** — working simulation, backtesting, and workflow validation system
-- **Atlas** — infrastructure and workflow support layer
-- **Orion** — research-cluster direction and deeper research workflow layer
-- **Hermes** — mutation and modification cluster for system evolution workflows
-
-Some public repositories reflect older lineage, forks, experiments, or supporting infrastructure. The public GitHub is a partial surface of an active private R&D environment.
-
----
-
-## Near-Term Priorities
-
-Current hardening sequence:
-
-1. Add decision ledger and workflow run records.
-2. Add Donna input/report lane.
-3. Add operator skills around existing tools.
-4. Add Atlas/Orion workflow-specific skills.
-5. Add validation bundles by workflow type.
-6. Only then consider deeper Crystal access.
-
-The priority is not adding unnecessary complexity.
-
-The priority is making existing systems more reliable, observable, and pilot-ready.
-
----
-
-## Founder
-
-Built by **JordanG2D**.
+The Nexus code is private. An evidence packet and architecture walkthrough are available on request.
 
 Founder/operator building an AI-native validation lab and control-plane infrastructure stack from the ground up.
