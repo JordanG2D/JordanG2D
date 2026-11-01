@@ -27,5 +27,3 @@ No customers or revenue yet. The QuantConnect run was attended and says nothing 
 info@gen2dynamics.com
 
 The Nexus code is private. An evidence packet and architecture walkthrough are available on request.
-
-Founder/operator building an AI-native validation lab and control-plane infrastructure stack from the ground up.
