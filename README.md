@@ -20,6 +20,9 @@ No customers or revenue yet. The QuantConnect run was attended and says nothing 
 
 ## Open source
 
+- [soc-triage-evals](https://github.com/JordanG2D/soc-triage-evals): reproducible offline Inspect AI evaluation of SOC triage on synthetic alerts, with preserved evidence from live model runs. MIT.
+- [durable-policy-workflow](https://github.com/JordanG2D/durable-policy-workflow): a TypeScript insurance workflow implemented by hand and with Temporal, with shared crash and retry tests. The AWS demo covers only the hand-built version. MIT.
+- [livekit-durable-handoff](https://github.com/JordanG2D/livekit-durable-handoff): a LiveKit and Temporal example that follows up by SMS after a session ends, with a local demo and simulated SMS gateway. MIT.
 - [g2d-discord-forge](https://github.com/JordanG2D/g2d-discord-forge): applies a Discord server template to an existing server without deleting what is already there. MIT.
 
 ## Contact
